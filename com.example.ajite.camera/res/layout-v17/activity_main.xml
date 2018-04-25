@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="2.0"
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x11801" app:weightSum="2.0"
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="2.0" app:layout_weight="1.0"
+            <LinearLayout app:orientation="vertical" app:id="@+id/btnCamera" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0" app:onClick="camera">
+                    <ImageView app:id="@+id/cam" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/ic_camera_enhance_black_24dp" app:layout_weight="3.0" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="Camera" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:id="@+id/recommendation" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0">
+                    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/ic_speaker_notes_black_24dp" app:layout_weight="3.0" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="Recommendation" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+            <LinearLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0" app:onClick="collabration">
+                    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/ic_important_devices_black_24dp" app:layout_weight="3.0" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="Collaboration" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:id="@+id/about_us" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0">
+                    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/ic_perm_identity_black_24dp" app:layout_weight="3.0" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="About us" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

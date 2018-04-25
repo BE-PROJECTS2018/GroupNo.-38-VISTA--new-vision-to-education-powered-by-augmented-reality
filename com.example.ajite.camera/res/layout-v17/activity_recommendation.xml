@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="2.0"
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x11801" app:weightSum="2.0"
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="2.0" app:layout_weight="1.0"
+            <LinearLayout app:orientation="vertical" app:id="@+id/btnCamera" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0" app:onClick="recom_heart">
+                    <ImageView app:id="@+id/cam" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/heart" app:layout_weight="3.0" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="A R Heart" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:id="@+id/ethene" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0" app:onClick="recom_ethene">
+                    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/ethene" app:layout_weight="3.0" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="A R Ethene" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+            <LinearLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:orientation="vertical" app:id="@+id/isometric" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="13.0">
+                    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/isometric_print" app:layout_weight="3.0" app:onClick="recom_isometric" />
+                    <TextView app:textSize="20dp" app:layout_width="match_parent" app:layout_height="match_parent" app:text="A R Isometric" app:layout_weight="1.0" app:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
